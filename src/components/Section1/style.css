@@ -1,0 +1,40 @@
+#desc-container {
+    margin: 4% auto;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+#desc-text {
+    text-align: center;
+    font-size: 70px;
+    font-family: Playfair Display;
+    font-weight: 500;
+    color: rgba(41, 41, 41, 1);
+}
+#desc-text-intro {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: rgba(41, 41, 41, 1);
+}
+@media (max-width: 800px) {
+    #desc-text {
+        font-size: 40px;
+    }
+    #desc-text-intro {
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    #desc-container {
+        margin: 0 4%;
+    }
+    #desc-text {
+        font-size: 40px;
+    }
+    #desc-text-intro {
+        font-size: 20px;
+    }
+}

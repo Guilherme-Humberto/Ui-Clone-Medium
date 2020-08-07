@@ -1,0 +1,109 @@
+#content-text-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+    grid-template-areas: 
+        "button button"
+        "texts texts";
+    align-items: center;
+    max-width: 800px;
+    margin: 5% 10%;
+}
+#text-top-content {
+    flex: 1;
+    text-align: left;
+    grid-area: texts;
+}
+
+#title-content-text {
+    font-size: 70px;
+    font-family: Playfair Display;
+}
+#desc-content-text {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 550;
+}
+
+#content-text-container-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 10%;
+}
+#btn-info-container {
+    margin-top: auto;
+    margin-bottom: 3%;
+}
+
+#title-text-info {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+#desc-text-info {
+    font-size: 25px;
+    color: rgba(117, 117, 117, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 15px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5% auto;
+    max-width: 500px;
+}
+
+@media (max-width: 900px) {
+    #content-text-container {
+        margin: 0 5%;
+    }
+    #content-text-container #text-top-content #title-content-text {
+        font-size: 30px;
+    }
+    #content-text-container #text-top-content #desc-content-text {
+        font-size: 16px;
+    }
+    #content-text-container-info {
+        margin: 5% auto;
+        max-height: 400px;
+        padding: 0 5%;
+    }
+    #btn-info-container {
+        text-align: left;
+        grid-area: buttons;
+        grid-column: 1;
+        
+    }
+    #title-text-info {
+        font-size: 19px;
+        display: block;
+        grid-area: texts;
+        margin-top: 1%;
+    }
+    #desc-text-info {
+        min-width: 80vw;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    #content-text-container #text-top-content #title-content-text {
+        font-size: 20px;
+        text-align: center;
+    }
+    #content-text-container #text-top-content #desc-content-text {
+        font-size: 15px;
+        text-align: center;
+    }
+    #content-text-container-info p {
+        font-size: 15px;
+    }
+    #btn-info-container {
+        width: 200px;
+    }
+}

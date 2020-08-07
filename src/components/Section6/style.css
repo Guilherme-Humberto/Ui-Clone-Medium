@@ -1,0 +1,128 @@
+#users-container {
+    max-width: 100%;
+}
+
+#box-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7% 7%;
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    z-index: 1;
+    left: 7%;
+    padding: 7% 7%;
+    font-size: 70px;
+    max-width: 800px;
+    font-family: Playfair Display;
+    color: rgba(41, 41, 41, 1);
+}
+
+#box-users-container {
+    max-width: 700px;
+    background-color: rgba(12, 242, 143, .2);
+    max-width: 100%;
+    height: 100%;
+    z-index: 0;
+    left: 15%;
+}
+#box {
+    padding: 8% 12%;
+}
+.icons-box-top {
+    top: -2rem;
+    margin-left: 30%;
+}
+
+#text-box {
+    font-size: 24px;
+    max-width: 800px;
+    margin-left: 15%;
+    padding: 0 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: rgba(41, 41, 41, 1);
+}
+#user-info {
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 20%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: rgba(41, 41, 41, 1);
+}
+#user-info img {
+    border-radius: 50%;
+    height: 40px;
+}
+#user-info p {
+    padding-left: 10px;
+}
+
+#circles {
+    padding: 0 10%;
+    display: flex;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+#circles > div {
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+}
+#circles div:nth-last-child(3) {
+    background-color: rgba(3, 168, 124, 1);;
+    border-color: transparent;
+}
+
+@media (max-width: 900px) {
+    #box-content {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    #text {
+        position: static;
+        max-width: 700px;
+        font-size: 50px;
+    }
+    #box-users-container {
+        position: static;
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    #box {
+        max-width: 100%;
+    }
+    .icons-box-top {
+        margin: 0 10%;
+    }
+    #text-box, #user-info, #circles {
+        max-width: 600px;
+        margin: 5% auto;
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    #text {
+        position: static;
+        max-width: 700px;
+        font-size: 20px;
+    }
+    .icons-box-top {
+        display: none;
+    }
+    #user-info, #text-box {
+        font-size: 15px;
+    }
+}

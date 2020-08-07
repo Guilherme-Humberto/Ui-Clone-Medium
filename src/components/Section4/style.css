@@ -1,0 +1,29 @@
+#points-items-container, #pont-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+#points-items-container #pont-item #text-point {
+    font-weight: bold;
+}
+#points-items-container img {
+    height: 50px;
+}
+#points-items-container p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icon-from-points {
+    background-color:rgb(8, 199, 148);
+    border-radius: 50%;
+    box-shadow: dimgray 5px 5px 10px;
+    margin: 10px;
+}

@@ -1,0 +1,33 @@
+#text-decoration-container2 {
+    margin: 10px 0;
+}
+#text-decoration-container2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+    font-family: Playfair Display;
+    color: rgba(41, 41, 41, 1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+#text-decoration-container2 #button-down-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+
+@media (max-width: 800px) {
+    #text-decoration-container2 p {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 500px) {
+    #text-decoration-container2 p {
+        font-size: 25px;
+        margin: 0 4%;
+    }
+}

@@ -1,0 +1,36 @@
+#button-get-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-get-started {
+    padding: 8px 16px;
+    width: 339.88px;
+    height: 62px;
+    font-size: 24px;
+    font-style: normal;
+    background: rgba(3, 168, 124, 1);
+    color: rgba(255, 255, 255, 1);
+    border-color: transparent;
+    border-radius: 3px;
+}
+#texts-down-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text-down-btn {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#link-down-btn {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(3, 168, 124, 1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
