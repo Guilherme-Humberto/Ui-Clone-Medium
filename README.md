@@ -1,5 +1,6 @@
 # Ui-Clone-Medium
-## Clonagem da página inicial do Medium
+## Clonagem da página inicial do Medium com React js
+
 
 <hr/>
 
