@@ -1,6 +1,10 @@
 # Ui-Clone-Medium
 ## Clonagem da página inicial do Medium com React js
 
+### Tecnologias
+
+- React js
+- Styled-Components
 
 <hr/>
 
