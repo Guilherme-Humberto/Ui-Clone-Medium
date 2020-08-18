@@ -5,6 +5,7 @@
 
 - React js
 - Styled-Components
+- TypeScript
 
 <hr/>
 
